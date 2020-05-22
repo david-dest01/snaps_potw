@@ -1,3 +1,4 @@
+const { expect } = require('chai');
 /**
  * Problem: https://leetcode.com/problems/add-and-search-word-data-structure-design/
  * 
@@ -20,7 +21,7 @@
 */
 
 // Initialize your data structure here.
-function WorkDictionary() {
+function WordDictionary() {
     
 }
 
@@ -48,3 +49,39 @@ WordDictionary.prototype.search = function(word) {
  * obj.addWord(word)
  * var param_2 = obj.search(word)
  */
+
+
+const wd = new WordDictionary;
+
+wd.addWord('bad');
+wd.addWord('dad');
+wd.addWord('mad');
+
+try {
+  expect(wd.search("pad")).be.false
+  console.log('expect "pad" to be false -  ✅');
+}
+catch (err) {
+  console.error('expect "pad" to be false -  ❌');
+}
+try {
+  expect(wd.search("bad")).be.false
+  console.log('expect "bad" to be true -  ✅');
+}
+catch (err) {
+  console.error('expect "bad" to be true -  ❌');
+}
+try {
+  expect(wd.search(".ad")).be.false
+  console.log('expect ".ad" to be true -  ✅');
+}
+catch (err) {
+  console.error('expect ".ad" to be true -  ❌');
+}
+try {
+  expect(wd.search(".ad")).be.false
+  console.log('expect "b.." to be true -  ✅');
+}
+catch (err) {
+  console.error('expect "b.." to be true -  ❌');
+}
