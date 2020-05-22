@@ -1,0 +1,21 @@
+{
+  "name": "snaps_potw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "algo": "node 05/week_5.20.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/david-dest01/snaps_potw.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/david-dest01/snaps_potw/issues"
+  },
+  "homepage": "https://github.com/david-dest01/snaps_potw#readme"
+}
