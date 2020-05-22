@@ -1,7 +1,7 @@
 ## Problem of the Week
 
 #### Getting Started
-To get started, clone this repository to your machine. If you don't have git set up locally you can use [gitpod](https://www.gitpod.io/).
+To get started, clone this repository to your machine. If you don't have git set up locally you can use [Gitpod](https://www.gitpod.io/).
 
 ##### Getting Started with Gitpod
 
@@ -26,10 +26,10 @@ To make sure you have the most recent challenges locally, follow the below instr
 
 ##### Testing Your Code
 
-The file structure for this repository is `[MonthNumber]/[week_MONTH.DAY].js`, for example `05/week_5.20.js`. Every week (hopefully) a new challenge will be added with following this naming convention.
+The file structure for this repository is `src/[MONTH_NUMBER]/[week_MONTH.DAY].js`, for example `src/05/week_5.20.js`. Every week (hopefully) a new challenge will be added with following this naming convention.
 
 **Testing Current Week**: If you want to **test your code** for the **current week** you can run the command `npm run algo` in your terminal.
-**Testing Past Weeks**: If you want to tinker with past weeks, from the root directory run the command `node [MonthNumber]/[week_MONTH.DAY].js`, for example `nodee 05/week_5.20.js` in your terminal.
+**Testing Past Weeks**: If you want to tinker with past weeks, from the root directory run the command `node [MONTH_NUMBER]/[week_MONTH.DAY].js`, for example `node src/05/week_5.20.js` in your terminal.
 
 ##### Commiting Your Code
 If you want to show your code one week or just have it saved remotely, following the below steps

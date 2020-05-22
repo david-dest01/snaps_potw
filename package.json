@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "algo": "node 05/week_5.20.js"
+    "algo": "node src/05/week_5.20.js"
   },
   "repository": {
     "type": "git",
